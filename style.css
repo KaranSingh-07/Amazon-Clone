@@ -1,7 +1,7 @@
 * {
     margin: 0;
     font-family: Arial;
-    box-sizing: border-box; /* Ensures padding/border are within set width/height [8] */
+    box-sizing: border-box; 
 }
 
 /* Navbar Styling */
@@ -27,7 +27,7 @@
 }
 
 .border {
-    border: 1.5px solid transparent; /* Prevents layout shift on hover [9] */
+    border: 1.5px solid transparent; 
 }
 
 .border:hover {
@@ -61,7 +61,7 @@
 }
 
 .nav-search:hover {
-    border: 2px solid orange; /* Realistic hover effect [10] */
+    border: 2px solid orange; 
 }
 
 .search-select {
@@ -85,13 +85,13 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    background-color: #febd68; /* Exact Amazon Orange [11] */
+    background-color: #febd68; 
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     color: #0f1111;
 }
 
-/* Account and Orders Styling */
+
 span {
     font-size: 0.7rem;
 }
@@ -101,7 +101,7 @@ span {
     font-weight: 700;
 }
 
-/* Cart Styling */
+
 .nav-cart i {
     font-size: 30px;
 }
@@ -111,7 +111,7 @@ span {
     font-weight: 700;
 }
 
-/* Lower Panel Styling */
+
 .panel {
     height: 40px;
     background-color: #222f3d;
@@ -136,14 +136,14 @@ span {
     font-weight: 700;
 }
 
-/* Hero Section Styling */
+
 .hero-section {
     background-image: url("hero_image.jpg");
     background-size: cover;
     height: 350px;
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* Places message box at the bottom [12, 13] */
+    align-items: flex-end; 
 }
 
 .hero-msg {
@@ -162,7 +162,7 @@ span {
     color: #007185;
 }
 
-/* Shopping Section Grid */
+
 .shop-section {
     display: flex;
     flex-wrap: wrap;
